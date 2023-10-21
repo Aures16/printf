@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
@@ -10,18 +11,5 @@
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
-}
-
-file: print_%.c
-
-#include "main.h"
-/**
- * print_37 - prints the char %.
- * Return: 1.
- */
-int print_37(void)
-{
-	_putchar(37);
-	return (1);
 }
 
